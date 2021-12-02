@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","Hey","Heyow","what's up","Yow!"],
+         "responses": ["Hello!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","Bye","Chat with you later!"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old are you", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name!", "what should I call you", "whats your name?"," what is the name they ha given you are?","you are called what?"],
+         "responses": ["You can call me Mariabot.", "I'm Mariabot! Your Virtual Assistant ", "I'm Maria aka Mariabot."],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["what is the address of the school?", "Where are you located?", "What are the directions to get there?", "What would I tell if I want to get there?","Excat location of the school?"],
+         "responses": ["NDKC is located at Datu Ingkal Street, Kidapawan City"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation","the school is open on what time?","what time do the school closes?", "what is the business hours of the school?"],
+         "responses": ["NDKC is open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "spam",
+        "patterns": ["Marry me","I love You","date me","chat with me","I am bored","can u do something cool?"],
+        "responses": ["Please ask school related query."],
+        "context_set": ""
+        },
+        {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Ty","Thank you for answering me"],
+        "responses": ["I'am glad I can help you.","Your welcome, have a nice day!"],
+        "context": [""]
+        },       
+        {"tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please","Can i ask something?","I have questions","can u answer my questions?"],
+        "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"],
+        "context": [""]
+        },
+        {"tag": "complaint",
+        "patterns": ["have a complaint","I have problems with your service","Your service is not that good", "I want to raise a complaint", "there is a complaint about a service"],
+        "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"],
+        "context": [""]
+        },
+        {"tag": "contact",
+        "patterns": ["how to contact you", "how do I contact the school?", "how can i reach you?", "how can i reach the school?", "do you have any contact"],
+        "responses": ["You can reach us through our facebook page: https://www.facebook.com/ndkcofficial or Call us (064) 288 1673 or Email us at research@ndkc.edu.ph"],
+        "context": [""]
+       },
+       {"tag": "SOA",
+        "patterns": ["Can I see my Statement of Account", "Statement of Account", "Can I inquire for statement of the Account", "I want to know my remaining balance", "How much do i have to pay left?"],
+        "responses": [""],
+        "context": [""]
+       }
+   ]
+}

@@ -1,0 +1,8 @@
+{"intents": [
+   {"tag": "unk",
+    "patterns": [],
+    "responses": ["Can you repeat your query? Something school related :D", "I can't understand what you are asking.", "Sorry, I can't understand","Sorry, that question is not recognized in my data set.", "Can't Understand Your Question","Please elaborate your question."],
+    "context_set": ""
+    }
+]
+}
