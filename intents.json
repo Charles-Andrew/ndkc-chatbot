@@ -20,7 +20,7 @@
          "context_set": ""
         },
         {"tag": "location",
-         "patterns": ["what is the address of the school?", "Where are you located?", "What are the directions to get there?", "What would I tell if I want to get there?","Excat location of the school?"],
+         "patterns": ["what is the address of the school?", "Where are you located?", "What are the directions to get there?", "What would I tell if I want to get there?","Excat location of the school?","Where is the school?","Where can I find the school?"],
          "responses": ["NDKC is located at Datu Ingkal Street, Kidapawan City"],
          "context_set": ""
         },
