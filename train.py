@@ -107,6 +107,7 @@ def chatbot(wts):
             #unkq(wts)                
         return result           
 
-    res = response(extract(chat()), intents) + "   % = " + str(prob(chat()))
+    res = response(extract(chat()), intents) 
+    #+ "   % = " + str(prob(chat()))
 
     return res
