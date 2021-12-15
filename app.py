@@ -11,7 +11,7 @@ app = Flask(__name__)
 ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
 VERIFY_TOKEN = os.environ['VERIFY_TOKEN']
 bot = Bot(ACCESS_TOKEN)
-ttr = end - start
+
 #We will receive messages that Facebook sends our bot at this endpoint 
 @app.route("/", methods=['GET', 'POST'])
 def receive_message():
@@ -22,7 +22,7 @@ def receive_message():
         return verify_fb_token(token_sent)
     #if the request was not get, it must be POST and we can just proceed with sending a message back to user
     else:
-       start = t()
+
         # get whatever message a user sent the bot
        output = request.get_json()
        for event in output['entry']:
@@ -55,8 +55,7 @@ def invalid_input():
 #uses PyMessenger to send response to user
 def send_message(recipient_id, response):
     #sends user the text message provided via input response parameter
-    end = t()
-    bot.send_text_message(recipient_id, response+" "+str("{:.3f}".format(ttr)))
+    bot.send_text_message(recipient_id, response)
     return "success"
 
 if __name__ == "__main__":
