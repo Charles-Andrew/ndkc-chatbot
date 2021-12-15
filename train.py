@@ -113,6 +113,6 @@ def chatbot(wts):
     end = t()
     res = response(extract(chat()), intents) 
     #+ "   % = " + str(prob(chat()))
-    + str("{:.3f}".format(end-start))
     
-    return res +" "+
+    
+    return res +" "+ str("{:.3f}".format(end-start))
