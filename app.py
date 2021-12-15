@@ -11,7 +11,7 @@ app = Flask(__name__)
 ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
 VERIFY_TOKEN = os.environ['VERIFY_TOKEN']
 bot = Bot(ACCESS_TOKEN)
-
+ttr = end - start
 #We will receive messages that Facebook sends our bot at this endpoint 
 @app.route("/", methods=['GET', 'POST'])
 def receive_message():
@@ -56,7 +56,7 @@ def invalid_input():
 def send_message(recipient_id, response):
     #sends user the text message provided via input response parameter
     end = t()
-    bot.send_text_message(recipient_id, response+" "+str("{:.3f}".format(end-start)))
+    bot.send_text_message(recipient_id, response+" "+str("{:.3f}".format(ttr)))
     return "success"
 
 if __name__ == "__main__":
