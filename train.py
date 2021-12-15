@@ -7,8 +7,6 @@ import pandas as pd
 import numpy as np
 import random
 import json
-from timeit import default_timer as t
-from datetime import timedelta
 #from db_unk import unkq
 #Run once
 nltk.download('punkt')
@@ -18,7 +16,6 @@ nltk.download('stopwords')
 
 
 def chatbot(wts):
-    start = t()
     data = pd.read_json("intents.json")
     data.head
 
@@ -110,9 +107,9 @@ def chatbot(wts):
             #unkq(wts)                
         return result        
     
-    end = t()
+
     res = response(extract(chat()), intents) 
     #+ "   % = " + str(prob(chat()))
     
     
-    return res +" "+ str("{:.3f}".format(end-start))
+    return res 
