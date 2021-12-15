@@ -55,7 +55,7 @@ def invalid_input():
 #uses PyMessenger to send response to user
 def send_message(recipient_id, response, ttr):
     #sends user the text message provided via input response parameter
-    bot.send_text_message(recipient_id, response+" "+ttr)
+    bot.send_text_message(recipient_id, response+" "+ttr+"s")
     return "success"
 
 if __name__ == "__main__":
