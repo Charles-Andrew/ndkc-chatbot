@@ -5,6 +5,7 @@ from pymessenger.bot import Bot
 import os 
 from flask import send_from_directory     
 from train import chatbot
+from timeit import default_timer as t
 
 app = Flask(__name__)
 ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
@@ -21,6 +22,7 @@ def receive_message():
         return verify_fb_token(token_sent)
     #if the request was not get, it must be POST and we can just proceed with sending a message back to user
     else:
+      start = t()
         # get whatever message a user sent the bot
        output = request.get_json()
        for event in output['entry']:
@@ -53,7 +55,8 @@ def invalid_input():
 #uses PyMessenger to send response to user
 def send_message(recipient_id, response):
     #sends user the text message provided via input response parameter
-    bot.send_text_message(recipient_id, response)
+    end = t()
+    bot.send_text_message(recipient_id, response+" "+str("{:.3f}".format(end-start)))
     return "success"
 
 if __name__ == "__main__":
