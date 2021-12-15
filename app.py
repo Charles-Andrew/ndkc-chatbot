@@ -6,7 +6,6 @@ import os
 from flask import send_from_directory     
 from train import chatbot
 from timeit import default_timer as t
-
 app = Flask(__name__)
 ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
 VERIFY_TOKEN = os.environ['VERIFY_TOKEN']
@@ -15,6 +14,7 @@ bot = Bot(ACCESS_TOKEN)
 #We will receive messages that Facebook sends our bot at this endpoint 
 @app.route("/", methods=['GET', 'POST'])
 def receive_message():
+    start = t()
     if request.method == 'GET':
         """Before allowing people to message your bot, Facebook has implemented a verify token
         that confirms all requests that your bot receives came from Facebook.""" 
@@ -22,7 +22,6 @@ def receive_message():
         return verify_fb_token(token_sent)
     #if the request was not get, it must be POST and we can just proceed with sending a message back to user
     else:
-
         # get whatever message a user sent the bot
        output = request.get_json()
        for event in output['entry']:
@@ -33,7 +32,8 @@ def receive_message():
                 recipient_id = message['sender']['id']
                 if message['message'].get('text'):
                     response_sent_text = chatbot(message['message']['text'])
-                    send_message(recipient_id, response_sent_text)
+                    end = t()
+                    send_message(recipient_id, response_sent_text,str("{:.3f}".format(end-start)))
                 #if user sends us a GIF, photo,video, or any other non-text item
                 if message['message'].get('attachments'):
                     response_sent_nontext = invalid_input()
@@ -53,9 +53,9 @@ def invalid_input():
     return random.choice(sample_responses)
 
 #uses PyMessenger to send response to user
-def send_message(recipient_id, response):
+def send_message(recipient_id, response, ttr):
     #sends user the text message provided via input response parameter
-    bot.send_text_message(recipient_id, response)
+    bot.send_text_message(recipient_id, response+" "+ttr)
     return "success"
 
 if __name__ == "__main__":
