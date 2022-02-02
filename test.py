@@ -1,4 +1,3 @@
-import imp
 from train import chatbot
 
 while True:

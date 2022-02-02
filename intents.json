@@ -155,7 +155,6 @@
         "Please provide us your complaint in order to assist you",
         "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
       ]
-      
     },
     {
       "tag": "contact",
@@ -181,6 +180,18 @@
       ],
       "responses": [
         ""
+      ]
+    },
+    {
+      "tag": "lokasyon ng school",
+      "patterns": [
+        "Saan matatagpuan ang paaralan?",
+        "Saan banda matatagpuan ang paaralan?",
+        "Saan matatagpuan ang NDKC?",
+        "Ang NDKC ay saang lugar makikita?"
+      ],
+      "responses": [
+        "Matatagpuan ang NDKC sa Datu Ingkal St. Kidapawan City."
       ]
     }
   ]
