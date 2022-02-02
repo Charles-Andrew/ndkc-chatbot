@@ -7,8 +7,10 @@ from flask import send_from_directory
 from train import chatbot
 from timeit import default_timer as t
 app = Flask(__name__)
-ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
-VERIFY_TOKEN = os.environ['VERIFY_TOKEN']
+#ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
+#VERIFY_TOKEN = os.environ['VERIFY_TOKEN']
+ACCESS_TOKEN = "EAAGhNCUUsVABABZB9DJNJjj74idRV5vrzuh7vrnUn6ZAZAdZAZAZBqsUTzw3BKikskSDlVpZBB4D2foUu33cTPlCIo8oYKNYNvnyNbMnZAX1weK09wEltb9188So7j3LgAPHGjrIEnMHoKsIkoZAq3MmQFXPCQ98fPlEmty5hMn6lUGvLkuc7Jhe8"
+VERIFY_TOKEN = "pota"
 bot = Bot(ACCESS_TOKEN)
 
 #We will receive messages that Facebook sends our bot at this endpoint 
