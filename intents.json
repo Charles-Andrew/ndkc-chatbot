@@ -115,10 +115,11 @@
         "Thank you",
         "That's helpful",
         "Ty",
-        "Thank you for answering me"
+        "Thank you for answering me",
+        "Salamat"
       ],
       "responses": [
-        "I'am glad I can help you.",
+        "I'am glad \\n I can help you.",
         "Your welcome, have a nice day!"
       ]
     },
