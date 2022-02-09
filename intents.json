@@ -191,8 +191,16 @@
         "Ang NDKC ay saang lugar makikita?"
       ],
       "responses": [
-        "Matatagpuan ang NDKC sa Datu Ingkal St. Kidapawan City.",
-        "QWEQWEQWE"
+        "Matatagpuan ang NDKC sa Datu Ingkal St. Kidapawan City."
+      ]
+    },
+    {
+      "tag": "ongoing enrollment",
+      "patterns": [
+        "Good pm. Ongoing pa po ba enrolment sa graduate school? Thanks po"
+      ],
+      "responses": [
+        "Yes po"
       ]
     }
   ]
