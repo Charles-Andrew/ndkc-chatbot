@@ -36,7 +36,7 @@
         "ask lng po aq if open mu for enrollment"
       ],
       "responses": [
-        "NDKC's College Enrollment will start at:       and end at:         "
+        "NDKC's Online College Enrollment will start at:       and end at:         "
 
       ]
     },
@@ -86,7 +86,7 @@
     {
       "tag": "Gcash",
       "patterns": [
-        "I’d like to ask if supported ba ang GCash payment for matriculation",
+        "I would like to ask if supported ba ang GCash payment for matriculation",
         "Can I send my tuition fee through gcash?",
         "Ask kulang po pagnagbayad  NG TUITION thru GCASH saan e send Ang recept po",
         "Nagsend po ako ng payment for my tuition via Gcash."
@@ -98,7 +98,7 @@
     {
       "tag": "Gcash",
       "patterns": [
-        "I’d like to ask if supported ba ang GCash payment for matriculation",
+        "I would like to ask if supported ba ang GCash payment for matriculation",
         "Can I send my tuition fee through gcash?",
         "Ask kulang po pagnagbayad  NG TUITION thru GCASH saan e send Ang recept po",
         "Nagsend po ako ng payment for my tuition via Gcash."
@@ -112,7 +112,7 @@
       "patterns":[
         "I would like to request for my statement of account?",
         "pwede po magpasend ng balance ko?",
-        "Can I ask for a copy of my sister’s SOA po?",
+        "Can I ask for a copy of my sisters SOA po?",
         "ask lang po sana kung magkano nalang yung natitirang balance",
         "Pwede ba ma send diari ang statement of account po?",
         "Pwede po bha malamn magkano balance sa tuition.",
@@ -128,7 +128,716 @@
 
       ],
       "responses": [
-        "The school's payment system currently supports Gcash with this number: 09xxxxxxxxx"
+        "You can view your statement of the accounts from the ndkc student portal."
+      ]
+    },
+    {
+      "tag": "oustanding balance",
+      "patterns":[
+        "Wala po bang option to check online mag kano ang balance po sa finance. Thanks po",
+        "Ask lang po sana if makainquire through online about sa outstanding balance qo po sa school"
+      ],
+      "responses": [
+        "You can check your outstanding balance status in your SOA (Statement of the Accounts) which can be viewed at NDKC Student Portal"
+      ]
+    },
+    {
+      "tag": "Online Class",
+      "patterns":[
+        "Do you accept online classes?",
+        "weather you let us choose either online class or modular?",
+        "Online class po ba ang ndkc?",
+        "Tuloy po ba ang online class sa College?"
+      ],
+      "responses": [
+        "As of now, only online classes are offered in all of the courses in NDKC"
+      ]
+    },
+    {
+      "tag": "Online Class Apps",
+      "patterns":[
+        "ano po ang required na application na gamitin para sa online class?"
+
+      ],
+      "responses": [
+        "It depends on your teacher. But most of the time you will use Google Classroom, Google Meet, Zoom"
+      ]
+    },
+    {
+      "tag": "Online Entrance Exam",
+      "patterns":[
+        "may tanong lang po ako tungkol sa entrance exam hindi po ba pwede ako mag online entrance exam"
+
+      ],
+      "responses": [
+        "Entrance Exams are only held face-to-face."
+      ]
+    },
+    {
+      "tag": "NDKC Contact Details",
+      "patterns":[
+        "email add po ba kayo?",
+        "can I ask the email where I can send my documents?",
+        "may contact number po ba kau para makapag inquire",
+        "Wala ba email address ang school?"
+      ],
+      "responses": [
+        "The email address of ndkc is NDKC@gmail.com"
+      ]
+    },
+    {
+      "tag": "Finance Contact Details",
+      "patterns":[
+        "pwede mangayo ug number sa finance office",
+        "can you give me the email or messanger of ndkc finance para ma send ko ang proff of payment ko online.",
+        "Pwede po ba humingi ng email or contact number po ng nasa business office po?",
+        "can I have the NDKC's business office contact number to call please?",
+        "pwede po makahingi ng number po ng business office"
+
+      ],
+      "responses": [
+        "The NDKC Finance office can be reached with this number. 09xxxxxxxxx"
+      ]
+    },
+    {
+      "tag": "Finance Contact Issues",
+      "patterns":[
+        "Hindi po ma contact ang number ng Business Office"
+      ],
+      "responses": [
+        "Sorry for the inconvenience. Please try again some other time."
+      ]
+    },
+    {
+      "tag": "Registrar Contact Details",
+      "patterns":[
+        "May I know registrar office number?",
+        "asking for the number of registrars office for student verification",
+        "pwede mangayu contact number sa college registrar?"
+
+      ],
+      "responses": [
+        "The NDKC Registrars office can be reached with this number. '09xxxxxxxxx' or with this email 'registrar@ndkc.com'"
+      ]
+    },
+    {
+      "tag": "Enrollment Schedule",
+      "patterns":[
+        "pwede pa ho ba humabol sa enrollment?",
+        "open po mo now for enrollment",
+        "kaialn po enrollment for freshmen?",
+        "when po enrollment ng mga freshmen for graduate studies po?",
+        "Kailan po enrollment for incoming 1st year college",
+        "I am old student of NDKC just wanna ask if when yung schedule for enrollment?",
+        "ma'am ask lng po ako if nag start na ang enrolment nyo ngayon.",
+        "I would just like to ask when ang last day of enrollment",
+        "ask ko lang po may schedule po ba na by course ang second sem na enrollment po or pwede lang po na any day of this week kami magpapaenroll po?"
+
+      ],
+      "responses": [
+        "Enrollment will start at         until           2022. Please bring all of the requirements."
+      ]
+    },
+    {
+      "tag": "Enrollment details/requirements",
+      "patterns":[
+        "Pwede po malaman how much need for enrollment for second sem",
+        "pwde to be follow ang requirements magpaenroll ug freshmen",
+        "How much does this school cost ?",
+        "hm po entrolment pay sa college",
+        "Ano po yung requirements for transferee student po",
+        "Ano po requirements to enrol po? ",
+        "ask lng po ako if ano ang mga requirements para sa new student for enrolment.",
+        "unsay requirements pag continue students lng kay wala nadayon ug transfer sa other school",
+        "I would like to know the total tuition fees of my kids including the payments made and upcoming dues."
+
+      ],
+      "responses": [
+        "The minimum downpayment is 3k and please bring the following:"
+      ]
+    },
+    {
+      "tag": "Payment Negotiation",
+      "patterns":[
+        "Maam 3k po talaga e babayad maam hindi po pwedeng 2k?"
+      ],
+      "responses": [
+        "Please negotiate directly with the finance office regarding with that matter."
+      ]
+    },
+    {
+      "tag": "Tuition",
+      "patterns":[
+        "pwede po mag ask about sa inclusions sa tuition fee po?",
+        "Pwede po bang magdown payment lang muna?",
+        "gusto ko po sana e ask po about po sa tuition po",
+        "Ask lang po ako if magkano po tuition sa ndkc?",
+        "How much po ang tuition ng BEed po?",
+        "Magtatanong po sana ako about sa tuition sa college",
+        "pwd pa ko magbayad karon? college tuition fee",
+        "About my tuition, pwede Po bang mag down ng 4k lang po",
+        "Magkano po ang minimum of payment sa tuition po for midterm?",
+        "pwede po ba mag ask kung magkano po ang tuition jan sa NDKC po?",
+        "pwd na lang mag ask how much po kailangan ibayad every exam niya ma'am?",
+        "kailangan po ba na 18k dayon ibayad?",
+        "and how much is the tuition fee po?",
+        "Sa enrollment po nmn ngayon sa second semester po may babayarin po ba kami para maka enroll po?"
+      ],
+      "responses": [
+        "Minimum downpayment for tuition fee is 3k. Overall tuition cost vary per course."
+      ]
+    },
+    {
+      "tag": "Tuition Fee Breakdown",
+      "patterns":[
+        "can I ask a copy of the tuition fee breakdown."
+      ],
+      "responses": [
+        "We will get back to you as soon as we can after contacting the finance office."
+      ]
+    },
+    {
+      "tag": "Post Enrollment Issues",
+      "patterns":[
+        "Pwede pa po ba mag change ng course since di pa nagsisimula yung klase?",
+        "Ask lang po ako kung ano po yung rle 1 sa aming statment",
+        "ask lng po ako maam kasi meron pa po akong balance na 7, 716 then fully paid na po ako sa tuition pwde ko po ba makuha maam or ma irefund po ba sya?",
+        "May nag conflict po kasi saakin ma schedule. Ipa resched ko lang po sana"
+      ],
+      "responses": [
+        "Please contact the registrar regarding that matter."
+      ]
+    },
+    {
+      "tag": "Credited Subjects",
+      "patterns":[
+        "continue ra ba gihapon ko? credited pa 2 akong subject sauna"
+      ],
+      "responses": [
+        "Please get in touch with department dean where your desired course belongs."
+      ]
+    },
+    {
+      "tag": "Permit",
+      "patterns":[
+        "pwede po ba mag claim ng online permit",
+        "pwede po magkuha ng permit ngayon?",
+        "San po hihingi Ng permit",
+        "pwde po magbayad ugma para mkakuha exam permit po?",
+        "pwide po bang maka kuha ng permit dito po?",
+        "San pwedi mag hingi nang permit po? ",
+        "how much po ba ang permit para sa exam?"
+      ],
+      "responses": [
+        "Permits are only available at school."
+      ]
+    },
+    {
+      "tag": "Permit Issues",
+      "patterns":[
+        "wala po akong exam permit. Nagbayad po ako last week",
+        "pwede ko po pasend dito yung exam permit ko po kase nakabayad napo ako during enrollment and dili po ako pwede makaadto sa school due to some reasons "
+      ],
+      "responses": [
+        "Sorry to hear that. Please inquire in the finance office regarding that matter. Permits are only accessible at school."
+      ]
+    },
+    {
+      "tag": "New Student",
+      "patterns":[
+        "Do you accept New Students",
+        "Naga accept po ba kayo ng transferee this sem",
+        "Are you accepting new students?"
+      ],
+      "responses": [
+        "Yes, we accept new students."
+      ]
+    },
+    {
+      "tag": "New Students for Second Sem ",
+      "patterns":[
+        "pwede pa po ba mag transfer second sem po?",
+        "Pwede po ba mag enroll this comimg 2nd sem po?"        
+      ],
+      "responses": [
+        "Yes, we accept new students during this 2nd sem."
+      ]
+    },
+    {
+      "tag": "tuition cost -> Engineering ",
+      "patterns":[
+        "how much tuition in computer engineering ?",
+        "ask po if magkano po tuition fee per semester sa BS civil engineering po?"        
+      ],
+      "responses": [
+        "50k, 25k per sem"
+      ]
+    },
+    {
+      "tag": "tuition cost -> Engineering ",
+      "patterns":[
+        "how much tuition in computer engineering ?",
+        "ask po if magkano po tuition fee per semester sa BS civil engineering po?"        
+      ],
+      "responses": [
+        "50k, 25k per sem"
+      ]
+    },
+    {
+      "tag": "tuition cost -> Nursing ",
+      "patterns":[
+        "how much po tuition for BSN2 2nd sem"        
+      ],
+      "responses": [
+        "80k, 40k per sem"
+      ]
+    },
+    {
+      "tag": "tuition cost -> Accountancy ",
+      "patterns":[
+        "Pila ang tuition sa Accountancy course every semester?"        
+      ],
+      "responses": [
+        "45k, 22.5k per sem"
+      ]
+    },
+    {
+      "tag": "per unit cost",
+      "patterns":[
+        "Hm per unit po",
+        "how much tuition fee per unit",
+        "magkano po ba per units nyu po"        
+      ],
+      "responses": [
+        "500 per unit, does not include miscellaneous fees"
+      ]
+    },
+    {
+      "tag": "earning students",
+      "patterns":[
+        "requirements para earning student?",
+        "kailan enrollment para mga earning unit",
+        "did you offer earning units?"
+      ],
+      "responses": [
+        "Yes we do offer earning units. Please Message the NDKC facebook page for more info."
+      ]
+    },
+    {
+      "tag": "Hiring",
+      "patterns":[
+        "still hiring for Clinical Structors?",
+        "Hiring po ba kayo?",
+        "i would like to inquire on the posibilities of applying for a professor in the graduate school",
+        "I want to ask Po sana if you also need an English teacher",
+        "may hiring po ba for teachers?",
+        "Anong qualification ninyo",
+        "May I ask if my nakuha na po kayong science teacher?", 
+        "Still hiring for science teacher?",
+        "naghahanap pa po ba kayo ng Teacher sa Science po?ano po ang mga Requirments?",
+        "until when po ang deadline ng application?",
+        "Tanong lang sana ako if  hiring pa kayo ng teachers/prof sa college?" 
+      ],
+      "responses": [
+        "Please stay tuned to the NDKC facebook page for Hiring announcements."
+      ]
+    },
+    {
+      "tag": "Scholarships",
+      "patterns":[
+        "Do you have any scholarship programs?",
+        "Kailan po pwede mag avail sa TES?",
+        "I just want to ask about the scholarship that we'd take?" ,
+        "Do you offers scholarship for students who can't afford the tuition?",
+        "Ask ko lang po  when po namin malalaman yung result po sa scholarship po?",
+        "When po namin malalaman if nasali po kami sa scholarship po?"
+      ],
+      "responses": [
+        "Yes we do accept Scholarships. Please visit the schools DSAS office to inquire."
+      ]
+    },
+    {
+      "tag": "Bussiness Hours",
+      "patterns":[
+        "open po ba cashier sa friday?",
+        "pwede pa po ba mag pay ng tuition sa monday?",
+        "open po registrar today?",
+        "open po ba ang register office ng education department po?",
+        "Abri business office ugma po?",
+        "Open po ba stock room po ngayon?",
+        "Kelan po may opisina ang college registrar",
+        "open po ang business tom po for payment?",
+        "Open po ang cashier today?",
+        "Open po ba ang business office sa Friday?",
+        "Magtatanong lang po sana ako if meron po kayong transaction sa Saturday sa NDKC School po?"
+      ],
+      "responses": [
+        "Most of the office including the Finance and Registrars office are only open Mon-Thu 9:00 am to 6:00 pm and Fri 9:00 am to 12:00 nn."
+      ]
+    },
+    {
+      "tag": "Discounts",
+      "patterns":[
+        "Applicable po ba sa lahat ng Honors ang discount or sa top 10 lang po?",
+        "I would like to ask if deducted na po ang mga DL sa tuition po this midterm?",
+        "Apil na ning 50% na discount po?",
+        "naka abot po ba ako sa maka avail sa discount po?",
+        "Applied na po yung discount ko jan?"
+      ],
+      "responses": [
+        "Please contact the deans office with this number 09xxxxxxxxx regarding that matter."
+      ]
+    },
+    {
+      "tag": "Student Portal Details",
+      "patterns":[
+        "Where to access po sa portal yung class?"
+      ],
+      "responses": [
+        "This is the link of the student portal. https://schoolmanagementsystem.cloud/globemb/ndkc.college/student/"
+      ]
+    },
+    {
+      "tag": "Student Portal Issues ",
+      "patterns":[
+        "kami po ba ang mag lagay ng LRN doon sa website?",
+        "Asa pwede ma view ang statement of acc po? dili man gud siya ma view sa akong acc po",
+        "Di gihapon ma open ang student portal po.",
+        "pwede po ba ma reset ang account ko sa student portal? Di ko na po kasi ma open kasi nakalimutan ko ang password",
+        "may i ask bat hindi ako maka enroll sa portal?",
+        "pwede po virtually mag drop ng subject? ",
+        "I have concern about tuition fee payment since your portal is not currently available yet",
+        "Unfortunately hindi ko po ma open yung student portal ko po , pwde ko po ba dito nalng makuha yung SOA ko po",
+        "dili ma access ang website sa ndkc",
+        "Di daw po maopen Ng anak ko ang student portal.",
+        "meron po akong concern regarding sa SMS enrollment po",
+        "Di ko po maopen ang portal po parang may problema abg system.",
+        "nagfill up ko for online enrollment. Bakit po page not found after sa fill up sa first step?",
+        "may tanong lng po ako ba kasi pag register ko po kahapon naka irregular po ako  bakit mo irregular po?",
+        "dun po sa new system namali po ako sa pag encode sa subjects",
+        "mag-ask lang po ko if final na ba tong tuition nga nakabutang sa portal po?"
+      ],
+      "responses": [
+        "We will open up this issue with the IT Department. Sorry for the inconvenience. We will get back to you as soon as we can."
+      ]
+    },
+    {
+      "tag": "moodlecloud",
+      "patterns":[
+        "can i ask po how to access moodle class?"
+      ],
+      "responses": [
+        "It is currently unavailable. Please contact your subject teacher regarding that matter."
+      ]
+    },
+    {
+      "tag": "school elms",
+      "patterns":[
+        "May I ask how can I sign in to the elms?"
+      ],
+      "responses": [
+        "You can access ELMS on this link: https://elms.ndkcedu.ph/"
+      ]
+    },
+    {
+      "tag": "Grade Inquiry",
+      "patterns":[
+        "may I know how will I be able to see my grades?",
+        "Kanus a makuha ang grades?",
+        "pwede na po ba kunin ang grades?"
+      ],
+      "responses": [
+        "Your grades on specific subjects can be seen on your student portal. Please stay tuned if it is still unavailable."
+      ]
+    },
+    {
+      "tag": "Deans List",
+      "patterns":[
+        "I just want to ask, hindi po ako kasali sa DL po?",
+        "kasali po kami sa deans list po kasi wala po kaming 85 pababa na grades po nung first sem"
+      ],
+      "responses": [
+        "Please stay tuned for the official announcement in the NDKC Facebook Page."
+      ]
+    },
+    {
+      "tag": "specific schedules -> class finals",
+      "patterns":[
+        "when po  ang finals?"
+      ],
+      "responses": [
+        "The final will be on         ."
+      ]
+    },
+    {
+      "tag": "specific schedules -> class start",
+      "patterns":[
+        "kanus a magstart inyong class?",
+        "So kelan po ang start ng klase?",
+        "Kailangan napo mag uniform sa start ng class?",
+        "When po mag start classes ng ndkc?" 
+        
+      ],
+      "responses": [
+        "The class will start on will be on         ."
+      ]
+    },
+    {
+      "tag": "specific schedules -> orientation",
+      "patterns":[
+        "ask lang po sana kung kailan yung orientation thank you",
+        "When po yung orientation?",
+        "Ask lng po ako if nag start NG orientation nyo.",
+        "may orientation pa po ba for incoming freshmen?",
+        "About po sa class orientation for friday classes which is afternoon this day."
+      ],
+      "responses": [
+        "The students orientation will start on will be on         ."
+      ]
+    },
+    {
+      "tag": "specific schedules -> Exam",
+      "patterns":[
+        "when po exam for Second Term",
+        "kailan po ang sked nag final exam",
+        "May sure date na po ba Ang exam?",
+        "meron po ba kayong exam today sa school?"
+     ],
+      "responses": [
+        "The Exam will start on will be on         ."
+      ]
+    },
+    {
+      "tag": "Promissory Details",
+      "patterns":[
+        "Pano po mag promisory po para sa midterm exam po?",
+        "Pag mag promissory po magkano po babayaran ko?",
+        "How much po is the least amount para di po mag promi?"        
+     ],
+      "responses": [
+        "You can personally inquire for information in the Finance Office regarding with that matter. Thank you"
+      ]
+    },
+    {
+      "tag": "Promissory Issues",
+      "patterns":[
+        "makatake po ba ako nang exam if ever I'll give promisory note muna sir for the tuition?",
+        "Mag ask po sana ako kung makakuha na po ba ako ng permit if 10k po ang gi down ko?"
+      ],
+      "responses": [
+        "You can personally inquire for information in the Finance Office regarding with that matter or you can contact them with this number 09xxxxxxxxx. Thank you"
+      ]
+    },
+    {
+      "tag": "specific schedules -> Promissory",
+      "patterns":[
+        "Pwede pa po ba mag promissory ngayon?",
+        "Kailan po ang schedule ng promissory po?",
+        "Kailan po sched sa promisory po?",
+        "Available po ba ang promisory sa Saturday?",
+        "Ask lang po sana kung ako requirements para po mag promi?"
+      ],
+      "responses": [
+        "The Finance office hanlding the promissory is open on        upto         from 9:00 am to 4:00 pm"
+      ]
+    },
+    {
+      "tag": "specific schedules -> Entrance Exam",
+      "patterns":[
+        "ask Klang po kailan po Ang entrance exam po?",
+        "Kailan po ba mag tatapos ang entrance exam?"
+      ],
+      "responses": [
+        "The Guidance office will handle the entrance examination and will be open on           upto          ."
+      ]
+    },
+    {
+      "tag": "ID inquiries",
+      "patterns":[
+        "Pwede na po bang mag pa ID ang freshmen?",
+        "Available po ba ang stamp sa ID po"
+      ],
+      "responses": [
+        "Please visit or inquire with the IT Center personnel regarding this matter."
+      ]
+    },{
+      "tag": "specific question",
+      "patterns":[
+        "Ano po ang procedure para makapasign po ng request letter to conduct a study sa NDKC",
+        "Ms Gay R. Sandique RN MAN po ba program Head ng Nursing and ok lng po bang kunin email niya",
+        "Would like to ask lang po if may schedule ba kayo ng Psychological Test on weekends po, or weekdays lang?" ,
+	"Ma'am kung wala mi kabalo sa GWA namo pag elementary ang highschool ma'am kay eh leave nalang namo mam? or required jud siya butangan po?"       
+      ],
+      "responses": [
+        "Good Day!MA'AM/SIR, Thank you for contacting us. We've received your message and appreciate you reaching out. How can we be of service to you today?"
+      ]
+    },
+    {
+      "tag": "non-college questions",
+      "patterns":[
+        "mag ask ko if pwede pa po magpahabol enroll for senior high g11 po",
+        "pwede na po ba kumuha ng mag books ang mga graders?"        
+      ],
+      "responses": [
+        "OK PO"
+      ]
+    },
+    {
+      "tag": "safety protocols",
+      "patterns":[
+        "At Kung mag pasok kmi sa campus nyo kaylangan ba ang QR code."      
+      ],
+      "responses": [
+        "Yes QR CODE or Vaccination Card"
+      ]
+    },
+    {
+      "tag": "vaccine related",
+      "patterns":[
+        "pwd po magtanong if may schedule 1st dose vaccine for minors po?",
+        "Ask ko lng po kung may Schedule po ngayon dyan sa school niyo for Vaccination"      
+      ],
+      "responses": [
+        "Sikret LODI"
+      ]
+    },
+    {
+      "tag": "kto12issues",
+      "patterns":[
+        "Paano po required ba mag k12 kahit di ako umabot ng k12"
+             
+      ],
+      "responses": [
+        "YES PO"
+      ]
+    },
+    {
+      "tag": "class modality",
+      "patterns":[
+        "Face-to-face po ba yung klase or hindi?",
+        "meron bang face to face classes yung AB PHILOSOPHY po?",
+        "Blended learning pa rin po ba?","face to face po ba ang nursing sa NDKC?","Tuloy pa rin po ba ang face to face class","face to face po ba ang klse?"    
+      ],
+      "responses": [
+        "HINDI PA PO"
+      ]
+    },
+    {
+      "tag": "school librarian info",
+      "patterns":[
+        "sino po ang Librarian natin sa NDKC?"
+          
+      ],
+      "responses": [
+        "SIKRET"
+      ]
+    },
+    {
+      "tag": "school dean info",
+      "patterns":[
+        "sino po ba bagong dean sa college ngayon"
+         
+      ],
+      "responses": [
+        "hulaan mo"
+      ]
+    },
+    {
+      "tag": "registrar files",
+      "patterns":[
+        "ask ko lng po kng pwedi komakuha anh TOR ko summer S.Y 2009-2010","pwede po ba ako humingi ng COR po?","pwede poba ako humingi ng Certificate of Enrollment","pwede po magrequest ug certified copy sa akoa  SF10 sa  po?","pwede po bang mag request ng diploma in your office tomorrow?","Mag ask sana ako if paano makakakuha ng TOR","how to request authenticated diploma for employment requirement po?","Paano po makarequest ng serial number ng NSTP po?","kung kukuha po ba ng tor para sa earning units, makukuha po ba agad?","pwede ko po bang makuha ang NSO ko sa registrar ngayon ","May I know the process of how to get the school record of the person which is undergraduate ?","How can I get my all records from Ndkc?","Paano Po mg request ng TOR,GOOD MORAL, and HONORABLE DISMISSAL?"
+         
+      ],
+      "responses": [
+        "di d.i ko"
+      ]
+    },
+    {
+      "tag": "course availability inquiry",
+      "patterns":[
+        "may course po ba kayo na B's crim po","Meron po ba kayong Accounting Tech?","Do you offer Social Work course?","Do you offer stenography course?","MY COURSE PO KAYONG NURSING","may architecture po bang course sa college po?","May i know if what courses offered from your school"
+         
+      ],
+      "responses": [
+        "huehue"
+      ]
+    },
+    {
+      "tag": "prospectus",
+      "patterns":[
+        "pwede po makahingi ng prospectus for civil engineering","May I ask for a prospectus for this course."
+         
+      ],
+      "responses": [
+        "adtua sa registrar oi "
+      ]
+    },
+    {
+      "tag": "course details >> cs",
+      "patterns":[
+        "may 2 year course po ba sa computer science?"
+         
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "course details >> nursing",
+      "patterns":[
+        "ask lng po about nursing course po"
+      ],
+      "responses": [
+        "hhhh"
+      ]
+    },
+    {
+      "tag": "schedulesincourses",
+      "patterns":[
+        "bakit wala pa pong subjects ang 3rd year nursing po","May schedule na po ba ang second year education?","kailan po mag send ng schedule for 1st year?"
+         
+      ],
+      "responses": [
+        "ngipon"
+      ]
+    },
+    {
+      "tag": "school details",
+      "patterns":[
+        "saan po ba mag tanong about sa school.?","Can you tell me more about this educational institution?"
+         
+      ],
+      "responses": [
+        "yoko nga"
+      ]
+    },
+    {
+      "tag": "clearance",
+      "patterns":[
+        "asa makuha ang clearance po?","pag hindi pa natapos ang clearance kailangan po ba taposin??","may last day po ba Ang pag kuha nang clearance po?"
+         
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "subject inquiries",
+      "patterns":[
+        "pwede mag ask regarding sa subjects for summer classes?"
+         
+      ],
+      "responses": [
+        "yiiiweee"
+      ]
+    },
+    {
+      "tag": "idvalidation",
+      "patterns":[
+        "paano po magpa validate ng ID?"
+      ],
+      "responses": [
+        "kasjdnkpaano po magpa validate ng ID?"
       ]
     }
   ]
