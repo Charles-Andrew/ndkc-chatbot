@@ -1,207 +1,134 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "Online Payment",
       "patterns": [
-        "Hi",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day",
-        "Whats up",
-        "Hey",
-        "Heyow",
-        "what's up",
-        "Yow!"
+      "paano po mag bayad online for lab manual po?",
+      "Tanong ko pang po sana kung pwde po ba magbayad online for our mid term exam?",
+      "Mag ask lang po sa details ng online payment po ng tuition?",
+      "Pwede po via bank acct and online magbayad ng tuition?",
+      "pwede po ba mag bayad via BANK?",
+      "Mag-ask sana ako about sa bank account at school fees ko po", 
+      "saan po esent ang proof of payment po namin thru ML po?",
+      "Kung ipapadala Lang Yung pera Name ng receiver po",
+      "If ever di po ako makapunta ng school po to pay for midterm payment, saan ko po sya pwedeng ipapadala? And how po?",
+      "pwede mka ask NG account no. Nyo. Para ilagay ko sa pera Padala NG ML",
+      "paano mag bayad through bank?",
+      "can i ask po pano poba magbayad sa palawan po?",
+      "Pwedi po ako makahingi bank account sa school po?",
+      "pwede po through cebuana po ang payment?",
+      "ask lang po kung pwede ba magbank transfer sa account ninyo sa AUB para po sa midterm  payment",
+      "How can I pay  while Im outside the country?"
       ],
       "responses": [
-        "Hello!",
-        "Hi there, how can I help?"
+        "NDKC's supported online payment method are thru: Banks (AUB, BDO, ChinaBank), Palawan Padala, RD Pawnshops, Cebuana Padala, and ML Kwarta Padala"
+
       ]
     },
     {
-      "tag": "goodbye",
+      "tag": "Online Enrollment Schedule",
       "patterns": [
-        "cya",
-        "See you later",
-        "Goodbye",
-        "I am Leaving",
-        "Have a Good day",
-        "Bye",
-        "Chat with you later!"
+        "Naa moy online enrollment?",
+        "Is the online enrollment already open?",
+        "online mode lang po tlaga enrollment? Or we can go directly sa school?",
+        "is it possible to pay my downpayment walk in even if i enrolled online?",
+        "when is the online enrollment for college",
+        "ask lng po aq if open mu for enrollment"
       ],
       "responses": [
-        "Sad to see you go :(",
-        "Talk to you later",
-        "Goodbye!"
+        "NDKC's College Enrollment will start at:       and end at:         "
+
       ]
     },
     {
-      "tag": "age",
+      "tag": "Online Enrollment Issues & Concerns ",
       "patterns": [
-        "how old",
-        "how old are you",
-        "what is your age",
-        "how old are you",
-        "age?"
+        "Nagpa enroll nako online po last wednesday pero wala pa akong sched po",
+        "pwede po ba mag enroll this second sem kahit may remaining balance pa last sem?",
+        "When po kayo mag email po? Para maka pag pay napo ako thru ML"
       ],
       "responses": [
-        "I am 18 years old!",
-        "18 years young!"
+        "If you have any concerns with your online enrollment please contact the Business Office with this number 09xxxxxxxx."
       ]
     },
     {
-      "tag": "name",
+      "tag": "Online Payment Confirmation ",
       "patterns": [
-        "what is your name!",
-        "what should I call you",
-        "whats your name?",
-        " what is the name they ha given you are?",
-        "you are called what?"
+        "Regarding po sana sa payment ng tuition through ML kwarta padala?",
+        "sa akong payment sa final wala man nag reply po if na recieve naba",
+        "Asa pwede maka ask po",
+        "nagreflect na po payment ko thru palawan?",
+        "pa confirm sana ng payment ko po na gisend sa email sa finance",
+        "ok na po ba yung payment ko?",
+        "may i have the copy of my receipt po?",
+        "we already sent the money thru palawan express and i already emailed the form to the gmail address po",
+        "I did an online enrollment last 12 of January and I  haven't receive any confirmation up to now.",
+        "I would like to ask any update for my online enrollment that I've made through this procedures.",
+        "Nag enroll po ako online pero wala pa po akong natatanggap na email",
+        "Ask ko lang po if meron na po bang confirmation sa enrollment ko po",
+        "nakapadala na kasi kami paano raw kami ma notified in what way po through message po ba? Or text? Kasi naka hulog napo kami."
       ],
       "responses": [
-        "You can call me Mariabot.",
-        "I'm Mariabot! Your Virtual Assistant ",
-        "I'm Maria aka Mariabot."
+        "Sorry for the inconvenience. We will consult with the business office regarding with that issue. We will get back to you as soon as we can. Thank you."
       ]
     },
     {
-      "tag": "location",
+      "tag": "School Balance Issues ",
       "patterns": [
-        "what is the address of the school?",
-        "Where are you located?",
-        "What are the directions to get there?",
-        "What would I tell if I want to get there?",
-        "Excat location of the school?",
-        "Where is the school?",
-        "Where can I find the school?"
+        "dili ba ma deduct tung sobra namo niaging term po? karong finals?",
+        "Pwede mag issue ug check po pang bayad tuition?"
+
       ],
       "responses": [
-        "NDKC is located at Datu Ingkal Street, Kidapawan City"
+        "It would be better if a school business office personnel will address this issue. Please contact the following number 09xxxxxxxx"
       ]
     },
     {
-      "tag": "hours",
+      "tag": "Gcash",
       "patterns": [
-        "when are you guys open",
-        "what are your hours",
-        "hours of operation",
-        "the school is open on what time?",
-        "what time do the school closes?",
-        "what is the business hours of the school?"
+        "I’d like to ask if supported ba ang GCash payment for matriculation",
+        "Can I send my tuition fee through gcash?",
+        "Ask kulang po pagnagbayad  NG TUITION thru GCASH saan e send Ang recept po",
+        "Nagsend po ako ng payment for my tuition via Gcash."
       ],
       "responses": [
-        "NDKC is open 7am-4pm Monday-Friday!"
+        "The school's payment system currently supports Gcash with this number: 09xxxxxxxxx"
       ]
     },
     {
-      "tag": "spam",
+      "tag": "Gcash",
       "patterns": [
-        "Marry me",
-        "I love You",
-        "date me",
-        "chat with me",
-        "I am bored",
-        "can u do something cool?"
+        "I’d like to ask if supported ba ang GCash payment for matriculation",
+        "Can I send my tuition fee through gcash?",
+        "Ask kulang po pagnagbayad  NG TUITION thru GCASH saan e send Ang recept po",
+        "Nagsend po ako ng payment for my tuition via Gcash."
       ],
       "responses": [
-        "Please ask school related query."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": [
-        "Thanks",
-        "Thank you",
-        "That's helpful",
-        "Ty",
-        "Thank you for answering me",
-        "Salamat"
-      ],
-      "responses": [
-        "I'am glad \\n I can help you.",
-        "Your welcome, have a nice day!"
-      ]
-    },
-    {
-      "tag": "help",
-      "patterns": [
-        "Could you help me?",
-        "give me a hand please",
-        "Can you help?",
-        "What can you do for me?",
-        "I need a support",
-        "I need a help",
-        "support me please",
-        "Can i ask something?",
-        "I have questions",
-        "can u answer my questions?"
-      ],
-      "responses": [
-        "Tell me how can assist you",
-        "Tell me your problem to assist you",
-        "Yes Sure, How can I support you"
-      ]
-    },
-    {
-      "tag": "complaint",
-      "patterns": [
-        "have a complaint",
-        "I have problems with your service",
-        "Your service is not that good",
-        "I want to raise a complaint",
-        "there is a complaint about a service"
-      ],
-      "responses": [
-        "Please provide us your complaint in order to assist you",
-        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
-      ]
-    },
-    {
-      "tag": "contact",
-      "patterns": [
-        "how to contact you",
-        "how do I contact the school?",
-        "how can i reach you?",
-        "how can i reach the school?",
-        "do you have any contact"
-      ],
-      "responses": [
-        "You can reach us through our facebook page: https://www.facebook.com/ndkcofficial or Call us (064) 288 1673 or Email us at research@ndkc.edu.ph"
+        "The school's payment system currently supports Gcash with this number: 09xxxxxxxxx"
       ]
     },
     {
       "tag": "SOA",
-      "patterns": [
-        "Can I see my Statement of Account",
-        "Statement of Account",
-        "Can I inquire for statement of the Account",
-        "I want to know my remaining balance",
-        "How much do i have to pay left?"
+      "patterns":[
+        "I would like to request for my statement of account?",
+        "pwede po magpasend ng balance ko?",
+        "Can I ask for a copy of my sister’s SOA po?",
+        "ask lang po sana kung magkano nalang yung natitirang balance",
+        "Pwede ba ma send diari ang statement of account po?",
+        "Pwede po bha malamn magkano balance sa tuition.",
+        "im asking for the amount that i need to pay for midterm",
+        "Pwede po ba maghingi ng digital copy sa Statement of account po?",
+        "pwede po maka hingi ng info regarding sa balance ko po",
+        "ifollow up nako ang balance po",
+        "pwede po maka ask ng photo po ng Statement of account ko",
+        "Pwede na mangayo og statement of account po?",
+        "can i ask po if ilan po yung babayaran kopo, ngayong semester at final?",
+        "pano po malaman maam ang balance sa tuition?",
+        "Magtanong lang po sana ako about sa remaining balance po ng tuition ko."
+
       ],
       "responses": [
-        ""
-      ]
-    },
-    {
-      "tag": "lokasyon ng school",
-      "patterns": [
-        "Saan matatagpuan ang paaralan?",
-        "Saan banda matatagpuan ang paaralan?",
-        "Saan matatagpuan ang NDKC?",
-        "Ang NDKC ay saang lugar makikita?"
-      ],
-      "responses": [
-        "Matatagpuan ang NDKC sa Datu Ingkal St. Kidapawan City."
-      ]
-    },
-    {
-      "tag": "ongoing enrollment",
-      "patterns": [
-        "Ongoing pa po ba enrolment sa graduate school?"
-      ],
-      "responses": [
-        "Yes po"
+        "The school's payment system currently supports Gcash with this number: 09xxxxxxxxx"
       ]
     }
   ]
