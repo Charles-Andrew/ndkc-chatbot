@@ -1,4 +1,4 @@
-from train import chatbot
+from core.train import chatbot
 
 while True:
     x = input("You: ")
